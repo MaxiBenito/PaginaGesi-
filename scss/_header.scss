@@ -1,0 +1,22 @@
+header{
+    width: 100%;
+    background-color:$bgcolor;
+    position: fixed;
+    z-index: 100;
+    .logo{
+        width: 150px;
+    }
+    .color{
+        background-color: $color70;
+        border-radius: 10px;
+    }
+ 
+    .button:hover{
+        background-color:$color100;
+    }
+    .contenedorboton{
+        width: 150px;
+        margin: 0px auto;
+        padding: 1px;
+    }
+}

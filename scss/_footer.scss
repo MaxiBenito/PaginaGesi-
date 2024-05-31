@@ -1,0 +1,16 @@
+footer{
+    width: 100%;
+    height: 81px;
+    bottom: 0;
+
+    background-color:rgba(219, 219, 219, 0.966);
+    .contimagenes{
+        display: flex;
+        justify-content: center;
+      }
+      .img{
+        width: 70px;
+        padding: 20px;
+        margin:8px;
+      }
+}

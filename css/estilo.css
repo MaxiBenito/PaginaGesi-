@@ -1,62 +1,102 @@
-body{
-    background-color:white;
-}
- .contenedor {
-    width: 1600px;
-    margin: 0px auto;
-    padding: 20px;
-  
-}
-.contfotos{
-    width: 200;
-    margin: 0px auto;
-    padding: 40px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-header{ 
-    width: 100%;
-    background-color: white;
-    position: fixed;
-    z-index: 100;
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3 {
-
-        font-family: "Roboto", sans-serif;
-        font-weight: 300;
-        font-style: normal;
-        text-align: center; 
+header {
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 100;
 }
-h4{
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    text-align: center;
-
+header .logo {
+  width: 150px;
 }
-.logo{
-    width: 150px;
+header .color {
+  background-color: #9ECECC;
+  border-radius: 10px;
 }
-.color{
-    background-color:#77C0BC;
-    border-radius: 10px;
+header .button:hover {
+  background-color: #77C0BC;
 }
-
-.titulo{
-    color: #77C0BC;
-    font-size: 500%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
+header .contenedorboton {
+  width: 150px;
+  margin: 0px auto;
+  padding: 1px;
 }
 
-.contenedorboton{
-    width: 150px;
-    margin: 0px auto;
-    padding: 1px;
+main .titulo {
+  color: #77C0BC;
+  font-size: 500%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
 }
-.button:hover{
-       background-color: #2BA6A1;
+main h1, main h2, main h3 {
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  font-size: 20px;
 }
+main h4 {
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  font-size: 18px;
+}
+main h5 {
+  font-weight: 500;
+  color: #FF9B42;
+  font-style: normal;
+  text-align: center;
+}
+main .color {
+  background-color: #9ECECC;
+  border-radius: 10px;
+}
+main .color2 {
+  background-color: #FF9B42;
+  border-radius: 10px;
+}
+main .button:hover {
+  background-color: #77C0BC;
+}
+main .contenedorboton {
+  width: 150px;
+  margin: 0px auto;
+  padding: 1px;
+}
+main .contfotos {
+  max-width: 100%;
+  width: 200;
+  margin: 0px auto;
+  padding: 40px;
+}
+main .imagen {
+  margin-top: 100px;
+}
+
+footer {
+  width: 100%;
+  height: 81px;
+  bottom: 0;
+  background-color: rgba(219, 219, 219, 0.966);
+}
+footer .contimagenes {
+  display: flex;
+  justify-content: center;
+}
+footer .img {
+  width: 70px;
+  padding: 20px;
+  margin: 8px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
